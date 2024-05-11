@@ -1,0 +1,38 @@
+body{
+    background-image: url(arte\ geométrica.jpg);
+    background-repeat: no-repeat;
+    background-size: 5000px;
+    background-position: top;
+}
+
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    font-style: initial;
+    color: white;
+}
+
+.botao{
+    border: solid 1px violet;
+    border-radius: 30px;
+    color: blueviolet;
+    background-color: white;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+    width: 200x;
+    height: 37px;
+    font-size: 20px;
+}
+
+.botao:hover{
+    background-color: blueviolet;
+    color: white;
+    transform: scale(1.4);
+}
+
+img{
+    width: 880px;
+    height: 400px;
+    border: 3px solid black;
+    border-radius: 30px;
+
+}
