@@ -4,15 +4,38 @@
     color: blueviolet;
     background-color: white;
     transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
-    width: 80px;
-    height: 45px;
+    width: 90px;
+    height: 55px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
 }
 
 .tatu:hover{
-    background-color: blueviolet;
+    background-color: orange;
     color: white;
     transform: scale(1.4);
+    font-style: italic;
+}
+
+.tuta{
+    border: solid 1px violet;
+    border-radius: 30px;
+    color: blueviolet;
+    background-color: white;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+    width: 90px;
+    height: 55px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    position: relative;
+    left: -15px;
+}
+
+.tuta:hover{
+    background-color: orange;
+    color: white;
+    transform: scale(1.4);
+    font-style: italic;
 }
 
 body{
@@ -20,7 +43,8 @@ body{
     background-repeat: no-repeat;
     background-size: 5000px;
     background-position: top;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
     color: white;
 }
 
