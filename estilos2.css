@@ -124,6 +124,26 @@
     transform: scale(1.4);
 }
 
+.bustoes{
+    position: relative;
+    left: -680px;
+    border: solid 1px violet;
+    border-radius: 30px;
+    color: blueviolet;
+    background-color: white;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+    width: 90px;
+    height: 50px;
+    font-size: 20px;
+    bottom: -20px;
+}
+
+.bustoes:hover{
+    background-color: blueviolet;
+    color: white;
+    transform: scale(1.4);
+}
+
 body{
     background-image: url(arte\ geométrica.jpg);
     background-repeat: no-repeat;
